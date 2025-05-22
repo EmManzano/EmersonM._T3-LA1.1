@@ -1,0 +1,108 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-panel, .right-panel {
+      width: 50%;
+      padding: 3rem;
+    }
+
+    .left-panel {
+      background-color: #176d6d;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .left-panel h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .left-panel p {
+      font-size: 1rem;
+      line-height: 1.6;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .right-panel {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-panel h2 {
+      margin-bottom: 2rem;
+      color: #176d6d;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      max-width: 300px;
+      position: relative;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.8rem 2.5rem;
+      border: none;
+      border-radius: 20px;
+      background-color: #176d6d;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .form-group input::placeholder {
+      color: #cfd8dc;
+    }
+
+    .form-group i {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 300px;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .options a {
+      color: #176d6d;
+      text-decoration: none;
+    }
+
+    .login-btn {
+      background-color: #176d6d;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 0.7rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-btn:hover {
+      background-color: #155a5a;
+    }

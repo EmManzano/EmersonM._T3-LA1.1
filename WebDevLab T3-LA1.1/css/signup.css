@@ -1,0 +1,100 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-panel {
+      flex: 1;
+      background-color: #216c6c;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .left-panel h2 {
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .right-panel {
+      flex: 1;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 4rem;
+    }
+
+    .right-panel h2 {
+      color: #216c6c;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #216c6c;
+    }
+
+    .input-icon {
+      display: flex;
+      align-items: center;
+      background-color: #216c6c;
+      border-radius: 12px;
+      padding: 0.5rem 1rem;
+    }
+
+    .input-icon i {
+      color: white;
+      margin-right: 0.5rem;
+    }
+
+    .input-icon input {
+      border: none;
+      background: none;
+      outline: none;
+      color: white;
+      width: 100%;
+      font-size: 1rem;
+    }
+
+    .remember-forgot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #216c6c;
+    }
+
+    .submit-btn {
+      background-color: #216c6c;
+      color: white;
+      border: none;
+      padding: 0.7rem 2rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .message {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: red;
+    }
